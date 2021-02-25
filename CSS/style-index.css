@@ -41,5 +41,35 @@ tr:nth-child(7) :nth-child(3),
 tr:nth-child(8) :nth-child(n+1):nth-child(-n+3),
 tr:nth-child(9) :nth-child(n+1):nth-child(-n+3){
     border: none;
-    background-color: whitesmoke;
+    background-color: white;
+}
+
+/* Nonmetal */
+tr:nth-child(1) :nth-child(1), tr:nth-child(2) :nth-child(n +14):nth-child(-n+16){
+    background-color: wheat;
+}
+
+/* Metal */
+tr:nth-child(2) {
+    background-color: lightgoldenrodyellow;
+}
+/* Earth Metal */
+tr:nth-child(2) :nth-child(2){
+    background-color: yellow;
+}
+/* Halogen */
+td:nth-child(17) {
+    background-color: tan;
+}
+/* Noble Gas */
+td:nth-child(18) {
+    background-color:peachpuff;
+}
+/* Lanthanide */
+tr:nth-child(8) :nth-child(n+4){
+    background-color: skyblue;
+}
+/* Actinide */
+tr:nth-child(9) :nth-child(n+4){
+    background-color: powderblue;
 }
