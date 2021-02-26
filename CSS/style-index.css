@@ -16,9 +16,11 @@
 }
 
 h1 {
+  margin-top: 2.5%;
   font-family: "Abril Fatface";
   text-align: center;
   letter-spacing: 0.2rem;
+  font-size: 300%;
 }
 table {
   table-layout: fixed;
@@ -48,7 +50,20 @@ td p:nth-child(3) {
   font-weight: lighter;
   padding-bottom: 4%;
 }
-
+div {
+  width: 80%;
+  margin-top: 3%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+div p {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+  border-radius: 5%;
+}
 /* Abstand ausgelagerte Teil */
 tr:nth-child(8) {
   margin-top: 300%;
@@ -75,6 +90,13 @@ td:empty {
   background-color: tan;
   transform: scale(2);
 }
+div p:nth-of-type(1) {
+  background-color: wheat;
+}
+div p:nth-of-type(1):hover .nonmetal {
+  position: absolute;
+  background-color: green;
+}
 /* Alkali Metal */
 .alkaliMetal {
   background-color: rgb(191, 223, 143);
@@ -82,6 +104,9 @@ td:empty {
 .alkaliMetal:hover {
   background-color: rgb(166, 196, 122);
   transform: scale(2);
+}
+div p:nth-of-type(2) {
+  background-color: rgb(191, 223, 143);
 }
 /* Alkaline Earth Metal */
 .alkalineEarthMetal {
@@ -91,6 +116,9 @@ td:empty {
   background-color: rgb(115, 155, 115);
   transform: scale(2);
 }
+div p:nth-of-type(3) {
+  background-color: rgb(160, 194, 160);
+}
 /*  Metalloid */
 .metalloid {
   background-color: blanchedalmond;
@@ -98,6 +126,9 @@ td:empty {
 .metalloid:hover {
   background-color: peachpuff;
   transform: scale(2);
+}
+div p:nth-of-type(4) {
+  background-color: blanchedalmond;
 }
 /* Transition Metal */
 .transitionMetal {
@@ -107,6 +138,9 @@ td:empty {
   background-color: rgb(199, 167, 183);
   transform: scale(2);
 }
+div p:nth-of-type(5) {
+  background-color: rgb(248, 216, 222);
+}
 /* Post-Transition Metal */
 .post-TransitionMetal {
   background-color: rgb(236, 186, 168);
@@ -115,7 +149,9 @@ td:empty {
   background-color: rgb(226, 190, 178);
   transform: scale(2);
 }
-
+div p:nth-of-type(6) {
+  background-color: rgb(236, 186, 168);
+}
 /* Halogen */
 .halogen {
   background-color: rgb(219, 190, 190);
@@ -124,13 +160,19 @@ td:empty {
   background-color: rgb(187, 151, 151);
   transform: scale(2);
 }
+div p:nth-of-type(7) {
+  background-color: rgb(219, 190, 190);
+}
 /* Noble Gas */
 .nobleGas {
   background-color: #f5c0b0;
 }
 .nobleGas:hover {
-  background-color: #ceaca1;
+  background-color: hsl(15, 31%, 72%);
   transform: scale(2);
+}
+div p:nth-of-type(8) {
+  background-color: #f5c0b0;
 }
 /* Lanthanide */
 .lanthanide {
@@ -140,6 +182,9 @@ td:empty {
   background-color: rgb(119, 179, 202);
   transform: scale(2);
 }
+div p:nth-of-type(9) {
+  background-color: skyblue;
+}
 /* Actinide */
 .actinide {
   background-color: rgb(153, 215, 219);
@@ -147,4 +192,7 @@ td:empty {
 .actinide:hover {
   background-color: rgb(113, 169, 173);
   transform: scale(2);
+}
+div p:nth-of-type(10) {
+  background-color: rgb(153, 215, 219);
 }
