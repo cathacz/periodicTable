@@ -7,11 +7,14 @@
     <link rel="stylesheet" href="./CSS/style-index.css" />
   </head>
   <body>
-    <header></header>
-    <table>
-      <h1>The Periodic Table</h1>
+    <header></header><h1>The Periodic Table</h1>
+    <table>  
       <tr>
-        <td>1 H Hydrogen Nonmetal</td>
+        <td class="nonmetal">
+          <p>1</p>
+          <p>H</p>
+          <p>Hydrogen</p>
+        </td>
         <td></td>
         <td></td>
         <td></td>
@@ -28,11 +31,23 @@
         <td></td>
         <td></td>
         <td></td>
-        <td>2 He Helium Noble Gas</td>
+        <td class="nobleGas">
+          <p>2</p>
+          <p>He</p>
+          <p>Helium</p>
+        </td>
       </tr>
       <tr>
-        <td>3 Li Lithium Alkali Metal</td>
-        <td>4 Be Beryllium Alkaline Earth Metal</td>
+        <td class="alkaliMetal">
+          <p>3</p>
+          <p>Li</p>
+          <p>Lithium</p>
+        </td>
+        <td class="alkalineEarthMetal">
+          <p>4</p>
+          <p>Be</p>
+          <p>Beryllium</p>
+        </td>
         <td></td>
         <td></td>
         <td></td>
@@ -43,16 +58,48 @@
         <td></td>
         <td></td>
         <td></td>
-        <td>5 B Boron Metalloid</td>
-        <td>6 C Carbon Nonmetal</td>
-        <td>7 N Nitrogen Nonmetal</td>
-        <td>8 O Oxygen Nonmetal</td>
-        <td>9 F Fluorine Halogen</td>
-        <td>10 Ne Neon Noble Gas</td>
+        <td class="metalloid">
+          <p>5</p>
+          <p>B</p>
+          <p>Boron</p>
+        </td>
+        <td class="nonmetal">
+          <p>6</p>
+          <p>C</p>
+          <p>Carbon</p>
+        </td>
+        <td class="nonmetal">
+          <p>7</p>
+          <p>N</p>
+          <p>Nitrogen</p>
+        </td>
+        <td class="nonmetal">
+          <p>8</p>
+          <p>O</p>
+          <p>Oxygen</p>
+        </td>
+        <td class="halogen">
+          <p>9</p>
+          <p>F</p>
+          <p>Fluorine</p>
+        </td>
+        <td class="nobleGas">
+          <p>10</p>
+          <p>Ne</p>
+          <p>Neon</p>
+        </td>
       </tr>
       <tr>
-        <td>11 Na Sodium Alkali Metal</td>
-        <td>12 Mg Magnesium Alkaline Earth Metal</td>
+        <td class="alkaliMetal">
+          <p>11</p>
+          <p>Na</p>
+          <p>Sodium</p>
+        </td>
+        <td class="alkalineEarthMetal">
+          <p>12</p>
+          <p>Mg</p>
+          <p>Magnesium</p>
+        </td>
         <td></td>
         <td></td>
         <td></td>
@@ -63,136 +110,629 @@
         <td></td>
         <td></td>
         <td></td>
-        <td>13 Al Aluminum Post-Transition Metal</td>
-        <td>14 Si Silicon Metalloid</td>
-        <td>15 P Phosphorus Nonmetal</td>
-        <td>16 S Sulfur Nonmetal</td>
-        <td>17 Cl Chlorine Halogen</td>
-        <td>18 Ar Argon Noble Gas</td>
+        <td class="post-TransitionMetal">
+          <p>13</p>
+          <p>Al</p>
+          <p>Aluminum</p>
+        </td>
+        <td class="metalloid">
+          <p>14</p>
+          <p>Si</p>
+          <p>Silicon</p>
+        </td>
+        <td class="nonmetal">
+          <p>15</p>
+          <p>P</p>
+          <p>Phosphorus</p>
+        </td>
+        <td class="nonmetal">
+          <p>16</p>
+          <p>S</p>
+          <p>Sulfur</p>
+        </td>
+        <td class="halogen">
+          <p>17</p>
+          <p>Cl</p>
+          <p>Chlorine</p>
+        </td>
+        <td class="nobleGas">
+          <p>18</p>
+          <p>Ar</p>
+          <p>Argon</p>
+        </td>
       </tr>
       <tr>
-        <td>19 K Potassium Alkali Metal</td>
-        <td>20 Ca Calcium Alkaline Earth Metal</td>
-        <td>21 Sc Scandium Transition Metal</td>
-        <td>22 Ti Titanium Transition Metal</td>
-        <td>23 V Vanadium Transition Metal</td>
-        <td>24 Cr Chromium Transition Metal</td>
-        <td>25 Mn Manganese Transition Metal</td>
-        <td>26 Fe Iron Transition Metal</td>
-        <td>27 Co Cobalt Transition Metal</td>
-        <td>28 Ni Nickel Transition Metal</td>
-        <td>29 Cu Copper Transition Metal</td>
-        <td>30 Zn Zinc Transition Metal</td>
-        <td>31 Ga Gallium Post-Transition Metal</td>
-        <td>32 Ge Germanium Metalloid</td>
-        <td>33 As Arsenic Metalloid</td>
-        <td>34 Se Selenium Nonmetal</td>
-        <td>35 Br Bromine Halogen</td>
-        <td>36 Kr Krypton Noble Gas</td>
+        <td class="alkaliMetal">
+          <p>19</p>
+          <p>K</p>
+          <p>Potassium</p>
+
+        </td>
+        <td class="alkalineEarthMetal">
+          <p>20</p>
+          <p>Ca</p>
+          <p>Calcium</p>
+
+        </td>
+        <td class="transitionMetal">          <p>21</p>
+          <p>Sc</p>
+          <p>Scandium</p>
+             
+        </td>
+        <td class="transitionMetal">
+          <p>22</p>
+          <p>Ti</p>
+          <p>Titanium</p>
+     
+        </td>
+        <td class="transitionMetal">
+          <p>23</p>
+          <p>V</p>
+          <p>Vanadium</p>
+    
+        </td>
+        <td class="transitionMetal">
+          <p>24</p>
+          <p>Cr</p>
+          <p>Chromium</p>
+ 
+        </td>
+        <td class="transitionMetal">
+          <p>25</p>
+          <p>Mn</p>
+          <p>Manganese</p>
+     
+        </td>
+        <td class="transitionMetal">
+          <p>26</p>
+          <p>Fe</p>
+          <p>Iron</p>
+          
+        </td>
+        <td class="transitionMetal">
+          <p>27</p>
+          <p>Co</p>
+          <p>Cobalt</p>
+
+        </td>
+        <td class="transitionMetal">
+          <p>28</p>
+          <p>Ni</p>
+          <p>Nickel</p>
+
+        </td>
+        <td class="transitionMetal">
+          <p>29</p>
+          <p>Cu</p>
+          <p>Copper</p>
+ 
+        </td>
+        <td class="transitionMetal">
+          <p>30</p>
+          <p>Zn</p>
+          <p>Zinc</p>
+          
+        </td>
+        <td class="post-TransitionMetal">
+          <p>31</p>
+          <p>Ga</p>
+          <p>Gallium</p>
+
+        </td>
+        <td class="metalloid">
+          <p>32</p>
+          <p>Ge</p>
+          <p>Germanium</p>
+           
+        </td>
+        <td class="metalloid">
+          <p>33</p>
+          <p>As</p>
+          <p>Arsenic</p>
+   
+        </td>
+        <td class="nonmetal">
+          <p>34</p>
+          <p>Se</p>
+          <p>Selenium</p>
+             
+        </td>
+        <td class="halogen">
+          <p>35</p>
+          <p>Br</p>
+          <p>Bromine</p>
+  
+        </td>
+        <td class="nobleGas">
+          <p>36</p>
+          <p>Kr</p>
+          <p>Krypton</p>
+            
+        </td>
       </tr>
       <tr>
-        <td>37 Rb Rubidium Alkali Metal</td>
-        <td>38 Sr Strontium Alkaline Earth Metal</td>
-        <td>39 Y Yttrium Transition Metal</td>
-        <td>40 Zr Zirconium Transition Metal</td>
-        <td>41 Nb Niobium Transition Metal</td>
-        <td>42 Mo Molybdenum Transition Metal</td>
-        <td>43 Tc Technetium Transition Metal</td>
-        <td>44 Ru Ruthenium Transition Metal</td>
-        <td>45 Rh Rhodium Transition Metal</td>
-        <td>46 Pd Palladium Transition Metal</td>
-        <td>47 Ag Silver Transition Metal</td>
-        <td>48 Cd Cadmium Transition Metal</td>
-        <td>49 In Indium Post-Transition Metal</td>
-        <td>50 Sn Tin Post-Transition Metal</td>
-        <td>51 Sb Antimony Metalloid</td>
-        <td>52 Te Tellurium Metalloid</td>
-        <td>53 I Iodine Halogen</td>
-        <td>54 Xe Xenon Noble Gas</td>
+        <td class="alkaliMetal">
+          <p>37</p>
+          <p>Rb</p>
+          <p>Rubidium</p>
+   
+        </td>
+        <td class="alkalineEarthMetal">
+          <p>38</p>
+          <p>Sr</p>
+          <p>Strontium</p>
+
+        </td>
+        <td class="transitionMetal">
+          <p>39</p>
+          <p>Y</p>
+          <p>Yttrium</p>
+
+        </td>
+        <td class="transitionMetal">
+          <p>40</p>
+          <p>Zr</p>
+          <p>Zirconium</p>
+    
+        </td>
+        <td class="transitionMetal">
+          <p>41</p>
+          <p>Nb</p>
+          <p>Niobium</p>
+       
+        </td>
+        <td class="transitionMetal">
+          <p>42</p>
+          <p>Mo</p>
+          <p>Molybdenum</p>
+    
+        </td>
+        <td class="transitionMetal">
+          <p>43</p>
+          <p>Tc</p>
+          <p>Technetium</p>
+
+        </td>
+        <td class="transitionMetal">
+          <p>44</p>
+          <p>Ru</p>
+          <p>Ruthenium</p>
+         
+        </td>
+        <td class="transitionMetal">
+          <p>45</p>
+          <p>Rh</p>
+          <p>Rhodium</p>
+     
+        </td>
+        <td class="transitionMetal">
+          <p>46</p>
+          <p>Pd</p>
+          <p>Palladium</p>
+        
+        </td>
+        <td class="transitionMetal">
+          <p>47</p>
+          <p>Ag</p>
+          <p>Silver</p>
+   
+        </td>
+        <td class="transitionMetal">
+          <p>48</p>
+          <p>Cd</p>
+          <p>Cadmium</p>
+     
+        </td>
+        <td class="post-TransitionMetal">
+          <p>49</p>
+          <p>In</p>
+          <p>Indium</p>   
+
+        </td>
+        <td class="post-TransitionMetal">
+          <p>50</p>
+          <p>Sn</p>
+          <p>Tin</p>
+
+        </td>
+        <td class="metalloid">
+          <p>51</p>
+          <p>Sb</p>
+          <p>Antimony</p>
+
+        </td>
+        <td class="metalloid">
+          <p>52</p>
+          <p>Te</p>
+          <p>Tellurium</p>
+           
+        </td>
+        <td class="halogen">
+          <p>53</p>
+          <p>I</p>
+          <p>Iodine</p>
+    
+        </td>
+        <td class="nobleGas">
+          <p>54</p>
+          <p>Xe</p>
+          <p>Xenon</p>
+   
+        </td>
       </tr>
       <tr>
-        <td>55 Cs Cesium Alkali Metal</td>
-        <td>56 Ba Barium Alkaline Earth Metal</td>
-        <td>*</td>
-        <td>72 Hf Hafnium Transition Metal</td>
-        <td>73 Ta Tantalum Transition Metal</td>
-        <td>74 W Tungsten Transition Metal</td>
-        <td>75 Re Rhenium Transition Metal</td>
-        <td>76 Os Osmium Transition Metal</td>
-        <td>77 Ir Iridium Transition Metal</td>
-        <td>78 Pt Platinum Transition Metal</td>
-        <td>79 Au Gold Transition Metal</td>
-        <td>80 Hg Mercury Transition Metal</td>
-        <td>81 Tl Thallium Post-Transition Metal</td>
-        <td>82 Pb Lead Post-Transition Metal</td>
-        <td>83 Bi Bismuth Post-Transition Metal</td>
-        <td>84 Po Polonium Metalloid</td>
-        <td>85 At Astatine Halogen</td>
-        <td>86 Rn Radon Noble Gas</td>
+        <td class="alkaliMetal">
+          <p>55</p>
+          <p>Cs</p>
+          <p>Cesium</p>
+           
+        </td>
+        <td class="alkalineEarthMetal">
+          <p>56</p>
+          <p>Ba</p>
+          <p>Barium</p>
+
+        </td>
+        <td class="star"><p>*</p></td>
+        <td class="transitionMetal">
+          <p>72</p>
+          <p>Hf</p>
+          <p>Hafnium</p>
+ 
+        </td>
+        <td class="transitionMetal">
+          <p>73</p>
+          <p>Ta</p>
+          <p>Tantalum</p>
+        
+        </td>
+        <td class="transitionMetal">
+          <p>74</p>
+          <p>W</p>
+          <p>Tungsten</p>
+   
+        </td>
+        <td class="transitionMetal">
+          <p>75</p>
+          <p>Re</p>
+          <p>Rhenium</p>
+   
+        </td>
+        <td class="transitionMetal">
+          <p>76</p>
+          <p>Os</p>
+          <p>Osmium</p>
+            
+        </td>
+        <td class="transitionMetal">
+          <p>77</p>
+          <p>Ir</p>
+          <p>Iridium</p>
+          
+        </td>
+        <td class="transitionMetal">
+          <p>78</p>
+          <p>Pt</p>
+          <p>Platinum</p>
+          
+        </td>
+        <td class="transitionMetal">
+          <p>79</p>
+          <p>Au</p>
+          <p>Gold</p>
+        </td>
+        <td class="transitionMetal">
+          <p>80</p>
+          <p>Hg</p>
+          <p>Mercury</p>
+
+        </td>
+        <td class="post-TransitionMetal">
+          <p81></p>
+          <p>Tl</p>
+          <p>Thallium</p>
+   
+        </td>
+        <td class="post-TransitionMetal">
+          <p>82</p>
+          <p>Pb</p>
+          <p>Lead</p>
+
+        </td>
+        <td class="post-TransitionMetal">
+          <p>83</p>
+          <p>Bi</p>
+          <p>Bismuth</p>
+
+        </td>
+        <td class="metalloid">
+          <p>84</p>
+          <p>Po</p>
+          <p>Polonium</p>
+        
+        </td>
+        <td class="halogen">
+          <p>85</p>
+          <p>At</p>
+          <p>Astatine</p>
+       
+        </td>
+        <td class="nobleGas">
+          <p>86</p>
+          <p>Rn</p>
+          <p>Radon</p>
+            
+        </td>
       </tr>
       <tr>
-        <td>87 Fr Francium Alkali Metal</td>
-        <td>88 Ra Radium Alkaline Earth Metal</td>
-        <td>**</td>
-        <td>104 Rf Rutherfordium Transition Metal</td>
-        <td>105 Db Dubnium Transition Metal</td>
-        <td>106 Sg Seaborgium Transition Metal</td>
-        <td>107 Bh Bohrium Transition Metal</td>
-        <td>108 Hs Hassium Transition Metal</td>
-        <td>109 Mt Meitnerium Transition Metal</td>
-        <td>110 Ds Darmstadtium Transition Metal</td>
-        <td>111 Rg Roentgenium Transition Metal</td>
-        <td>112 Cn Copernicium Transition Metal</td>
-        <td>113 Nh Nihonium Post-Transition Metal</td>
-        <td>114 Fl Flerovium Post-Transition Metal</td>
-        <td>115 Mc Moscovium Post-Transition Metal</td>
-        <td>116 Lv Livermorium Post-Transition Metal</td>
-        <td>117 Ts Tennessine Halogen</td>
-        <td>118 Og Oganesson Noble Gas</td>
+        <td class="alkaliMetal">
+          <p>87</p>
+          <p>Fr</p>
+          <p>Francium</p>
+          
+        </td>
+        <td class="alkalineEarthMetal">
+          <p>88</p>
+          <p>Ra</p>
+          <p>Radium</p>
+
+        </td>
+        <td class="star"><p>**</p></td>
+        <td class="transitionMetal">
+          <p>104</p>
+          <p>Rf</p>
+          <p>Rutherfordium</p>
+     
+        </td>
+        <td class="transitionMetal">
+          <p>105</p>
+          <p>Db</p>
+          <p>Dubnium</p>
+  
+        </td>
+        <td class="transitionMetal">
+          <p>106</p>
+          <p>Sg</p>
+          <p>Seaborgium</p>
+
+        </td>
+        <td class="transitionMetal">
+          <p>107</p>
+          <p>Bh</p>
+          <p>Bohrium</p>
+      
+        </td>
+        <td class="transitionMetal">
+          <p>108</p>
+          <p>Hs</p>
+          <p>Hassium</p>
+         
+        </td>
+        <td class="transitionMetal">
+          <p>109</p>
+          <p>Mt</p>
+          <p>Meitnerium</p>
+      
+        </td>
+        <td class="transitionMetal">
+          <p>110</p>
+          <p>Ds</p>
+          <p>Darmstadtium</p>
+     
+        </td>
+        <td class="transitionMetal">
+          <p>111</p>
+          <p>Rg</p>
+          <p>Roentgenium</p>
+         
+        </td>
+        <td class="transitionMetal">
+          <p>112</p>
+          <p>Cn</p>
+          <p>Copernicium</p>
+  
+        </td>
+        <td class="post-TransitionMetal">
+          <p>113</p>
+          <p>Nh</p>
+          <p>Nihonium</p>
+
+        </td>
+        <td class="post-TransitionMetal">
+          <p>114</p>
+          <p>Fl</p>
+          <p>Flerovium</p>
+
+        </td>
+        <td class="post-TransitionMetal">
+          <p>115</p>
+          <p>Mc</p>
+          <p>Moscovium</p>
+
+        </td>
+        <td class="post-TransitionMetal">
+          <p>116</p>
+          <p>Lv</p>
+          <p>Livermorium</p>
+
+        </td>
+        <td class="halogen">
+          <p>117</p>
+          <p>Ts</p>
+          <p>Tennessine</p>
+       
+        </td>
+        <td class="nobleGas">
+          <p>118</p>
+          <p>Og</p>
+          <p>Oganesson</p>
+    
+        </td>
       </tr>
       <br />
       <!-- der ausgelagerte Teil  -->
       <tr>
         <td></td>
         <td></td>
-        <td>*</td>
-        <td>57 La Lanthanum Lanthanide</td>
-        <td>58 Ce Cerium Lanthanide</td>
-        <td>59 Pr Praseodymium Lanthanide</td>
-        <td>60 Nd Neodymium Lanthanide</td>
-        <td>61 Pm Promethium Lanthanide</td>
-        <td>62 Sm Samarium Lanthanide</td>
-        <td>63 Eu Europium Lanthanide</td>
-        <td>64 Gd Gadolinium Lanthanide</td>
-        <td>65 Tb Terbium Lanthanide</td>
-        <td>66 Dy Dysprosium Lanthanide</td>
-        <td>67 Ho Holmium Lanthanide</td>
-        <td>68 Er Erbium Lanthanide</td>
-        <td>69 Tm Thulium Lanthanide</td>
-        <td>70 Yb Ytterbium Lanthanide</td>
-        <td>71 Lu Lutetium Lanthanide</td>
+        <td class="star"><p>*</p></td>
+        <td class="lanthanide">
+          <p>57</p>
+          <p>La</p>
+          <p>Lanthanum</p>
+        </td>
+        <td class="lanthanide">
+          <p>58</p>
+          <p>Ce</p>
+          <p>Cerium</p>
+        </td>
+        <td class="lanthanide">
+          <p>59</p>
+          <p>Pr</p>
+          <p>Praseodymium</p>
+        </td>
+        <td class="lanthanide">
+          <p>60</p>
+          <p>Nd</p>
+          <p>Neodymium</p>
+        </td>
+        <td class="lanthanide">
+          <p>61</p>
+          <p>Pm</p>
+          <p>Promethium</p>
+        </td>
+        <td class="lanthanide">
+          <p>62</p>
+          <p>Sm</p>
+          <p>Samarium</p>
+        </td>
+        <td class="lanthanide">
+          <p>63</p>
+          <p>Eu</p>
+          <p>Europium</p>
+        </td>
+        <td class="lanthanide">
+          <p>64</p>
+          <p>Gd</p>
+          <p>Gadolinium</p>
+        </td>
+        <td class="lanthanide">
+          <p>65</p>
+          <p>Tb</p>
+          <p>Terbium</p>
+        </td>
+        <td class="lanthanide">
+          <p>66</p>
+          <p>Dy</p>
+          <p>Dysprosium</p>
+        </td>
+        <td class="lanthanide">
+          <p>67</p>
+          <p>Ho</p>
+          <p>Holmium</p>
+        </td>
+        <td class="lanthanide">
+          <p>68</p>
+          <p>Er</p>
+          <p>Erbium</p>
+        </td>
+        <td class="lanthanide">
+          <p>69</p>
+          <p>Tm</p>
+          <p>Thulium</p>
+        </td>
+        <td class="lanthanide">
+          <p>70</p>
+          <p>Yb</p>
+          <p>Ytterbium</p>
+        </td>
+        <td class="lanthanide">
+          <p>71</p>
+          <p>Lu</p>
+          <p>Lutetium</p>
+        </td>
       </tr>
       <tr>
         <td></td>
         <td></td>
-        <td>**</td>
-        <td class="Actinide">89 Ac Actinium Actinide</td>
-        <td class="Actinide">90 Th Thorium Actinide</td>
-        <td class="Actinide">91 Pa Protactinium Actinide</td>
-        <td class="Actinide">92 U Uranium Actinide</td>
-        <td class="Actinide">93 Np Neptunium Actinide</td>
-        <td class="Actinide">94 Pu Plutonium Actinide</td>
-        <td class="Actinide">95 Am Americium Actinide</td>
-        <td class="Actinide">96 Cm Curium Actinide</td>
-        <td class="Actinide">97 Bk Berkelium Actinide</td>
-        <td class="Actinide">98 Cf Californium Actinide</td>
-        <td class="Actinide">99 Es Einsteinium Actinide</td>
-        <td class="Actinide">100 Fm Fermium Actinide</td>
-        <td class="Actinide">101 Md Mendelevium Actinide</td>
-        <td class="Actinide">102 No Nobelium Actinide</td>
-        <td class="Actinide">103 Lr Lawrencium Actinide</td>
+        <td class="star"><p>**</p></td>
+        <td class="actinide">
+          <p>89</p>
+          <p>Ac</p>
+          <p>Actinium</p>
+        </td>
+        <td class="actinide">
+          <p>90</p>
+          <p>Th</p>
+          <p>Thorium</p>
+        </td>
+        <td class="actinide">
+          <p>91</p>
+          <p>Pa</p>
+          <p>Protactinium</p>
+        </td>
+        <td class="actinide">
+          <p>92</p>
+          <p>U</p>
+          <p>Uranium</p>
+        </td>
+        <td class="actinide">
+          <p>93</p>
+          <p>Np</p>
+          <p>Neptunium</p>
+        </td>
+        <td class="actinide">
+          <p>94</p>
+          <p>Pu</p>
+          <p>Plutonium</p>
+        </td>
+        <td class="actinide">
+          <p>95</p>
+          <p>Am</p>
+          <p>Americium</p>
+        </td>
+        <td class="actinide">
+          <p>96</p>
+          <p>Cm</p>
+          <p>Curium</p>
+        </td>
+        <td class="actinide">
+          <p>97</p>
+          <p>Bk</p>
+          <p>Berkelium</p>
+        </td>
+        <td class="actinide">
+          <p>98</p>
+          <p>Cf</p>
+          <p>Californium</p>
+        </td>
+        <td class="actinide">
+          <p>99</p>
+          <p>Es</p>
+          <p>Einsteinium</p>
+        </td>
+        <td class="actinide">
+          <p>100</p>
+          <p>Fm</p>
+          <p>Fermium</p>
+        </td>
+        <td class="actinide">
+          <p>101</p>
+          <p>Md</p>
+          <p>Mendelevium</p>
+        </td>
+        <td class="actinide">
+          <p>102</p>
+          <p>No</p>
+          <p>Nobelium</p>
+        </td>
+        <td class="actinide">
+          <p>103</p>
+          <p>Lr</p>
+          <p>Lawrencium</p>
+        </td>
       </tr>
     </table>
+    
     <footer></footer>
   </body>
 </html>
