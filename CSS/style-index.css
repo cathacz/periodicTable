@@ -83,6 +83,7 @@ td:empty {
 }
 
 /* Nonmetal */
+
 .nonmetal {
   background-color: wheat;
 }
@@ -90,12 +91,14 @@ td:empty {
   background-color: tan;
   transform: scale(2);
 }
+.nonmetal:active {
+  filter: grayscale(100);
+}
 div p:nth-of-type(1) {
   background-color: wheat;
 }
-div p:nth-of-type(1):hover + .zoom {
-  position: absolute;
-  background-color: green;
+section div p:nth-of-type(1):hover section table tr td .nonmetal:active {
+  filter: grayscale(100);
 }
 /* Alkali Metal */
 .alkaliMetal {
