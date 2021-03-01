@@ -31,9 +31,11 @@ table {
 }
 td {
   padding: 0.2%;
-  font-size: 100%;
-  text-align: center;
   border-radius: 5%;
+  margin: 70%;
+}
+td p {
+  text-align: center;
 }
 td p:nth-child(1) {
   font-size: 45%;
@@ -61,6 +63,13 @@ tr:nth-child(2) :nth-child(n + 14):nth-child(-n + 16),
 tr:nth-child(3) :nth-child(n + 15):nth-child(-n + 16),
 tr:nth-child(4) :nth-child(16) {
   background-color: wheat;
+}
+tr:nth-child(1) :nth-child(1):hover,
+tr:nth-child(2) :nth-child(n + 14):nth-child(-n + 16):hover,
+tr:nth-child(3) :nth-child(n + 15):nth-child(-n + 16):hover,
+tr:nth-child(4) :nth-child(16):hover {
+  background-color: rgb(250, 236, 209);
+  transform: scale(2);
 }
 /*  Metalloid */
 tr:nth-child(2) :nth-child(13),
