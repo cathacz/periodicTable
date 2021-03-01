@@ -93,7 +93,7 @@ td:empty {
 div p:nth-of-type(1) {
   background-color: wheat;
 }
-div p:nth-of-type(1):hover .nonmetal {
+div p:nth-of-type(1):hover + .zoom {
   position: absolute;
   background-color: green;
 }
