@@ -35,10 +35,16 @@ td {
   text-align: center;
   border-radius: 5%;
 }
-td p {
-  font-size: 20%;
+td p:nth-child(1) {
+  font-size: 45%;
 }
-
+td p:nth-child(2) {
+  font-family: "Abril Fatface";
+  font-size: 150%;
+}
+td p:nth-child(3) {
+  font-size: 65%;
+}
 /* empty sections */
 tr:nth-child(1) :nth-child(n + 2):nth-child(-n + 17),
 tr:nth-child(2) :nth-child(n + 3):nth-child(-n + 12),
@@ -49,7 +55,6 @@ tr:nth-child(8) :nth-child(n + 1):nth-child(-n + 3),
 tr:nth-child(9) :nth-child(n + 1):nth-child(-n + 3) {
   background-color: white;
 }
-
 /* Nonmetal */
 tr:nth-child(1) :nth-child(1),
 tr:nth-child(2) :nth-child(n + 14):nth-child(-n + 16),
